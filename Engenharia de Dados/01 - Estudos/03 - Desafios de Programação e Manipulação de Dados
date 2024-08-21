@@ -1,0 +1,117 @@
+Aqui estão 100 desafios que você pode utilizar para aprimorar seus estudos em Engenharia de Dados, cobrindo uma ampla gama de habilidades técnicas e conceituais necessárias para o cargo.
+
+### Desafios de Programação e Manipulação de Dados
+1. **Manipulação de DataFrames:** Importe um dataset público e limpe os dados usando pandas em Python. Normalize colunas com valores nulos, remova duplicatas e transforme colunas categóricas em variáveis dummy.
+2. **Query Avançada em SQL:** Crie uma query SQL que una múltiplas tabelas utilizando `JOIN`, `GROUP BY` e `HAVING` para filtrar resultados com base em condições específicas.
+3. **Python + Pandas:** Construa uma função que identifique outliers em um dataset com base no desvio padrão e substitua-os pela média.
+4. **Scripting em Python:** Escreva um script Python que automatize a ingestão de dados de uma API REST, salvando os resultados em um banco de dados SQL.
+5. **Manipulação de Strings em SQL:** Use funções de string em SQL para transformar dados textuais (ex.: converter nomes para letra maiúscula, extrair substring, etc.).
+6. **Automação de Relatórios:** Desenvolva um script que gere relatórios automáticos diários a partir de um banco de dados, incluindo gráficos de desempenho gerados com matplotlib.
+7. **Análise de Dados com Python:** Implemente uma análise exploratória de dados (EDA) em um dataset, visualizando as distribuições, correlações e outliers.
+8. **Tratamento de Dados Faltantes:** Crie uma função que preencha dados faltantes em um DataFrame usando interpolação linear.
+9. **Integração de Dados:** Escreva uma query SQL que combine dados de duas tabelas diferentes e crie uma nova tabela consolidada.
+10. **SQL Avançado:** Resolva problemas de janela em SQL, como calcular a média móvel de vendas por mês.
+11. **Python com NumPy:** Implemente funções para operações matriciais, como multiplicação de matrizes e cálculo de determinantes.
+12. **Pandas MultiIndex:** Use MultiIndex no pandas para manipular e analisar dados hierárquicos.
+13. **Análise de Séries Temporais:** Realize uma decomposição de séries temporais para identificar tendências, sazonalidade e ruído.
+14. **Agrupamento em SQL:** Crie queries que agrupem dados por categorias e calculem agregações complexas como `SUM`, `COUNT`, e `AVG`.
+15. **Uso de Dicionários em Python:** Escreva um script que conte a frequência de palavras em um texto usando dicionários.
+16. **Desnormalização de Dados:** Transforme um modelo de dados normalizado em um desnormalizado em SQL, justificando o impacto disso no desempenho.
+17. **Mapeamento com Pandas:** Crie uma função que mapeie valores de uma coluna para outra com base em uma tabela de referência.
+18. **Manipulação de JSON com Python:** Escreva um script para manipular e extrair dados específicos de arquivos JSON aninhados.
+19. **Consultas Recursivas em SQL:** Implemente uma consulta recursiva para navegar por uma hierarquia de dados, como estrutura de funcionários.
+20. **Python + Regex:** Use expressões regulares em Python para validar e extrair dados de strings complexas.
+
+### Desafios de Engenharia de Dados e Arquitetura
+21. **Pipeline ETL Simples:** Desenvolva um pipeline ETL que extraia dados de um CSV, transforme-os (ex.: conversão de tipos, cálculos simples) e os carregue em um banco de dados SQL.
+22. **Modelagem de Dados Relacional:** Desenhe um esquema ERD (Entity-Relationship Diagram) para um sistema de gerenciamento de biblioteca.
+23. **Data Lake vs. Data Warehouse:** Escreva um ensaio comparando os usos, vantagens e desvantagens de um Data Lake em comparação com um Data Warehouse.
+24. **Orquestração de Pipeline:** Utilize Apache Airflow para orquestrar um pipeline de ETL que inclua múltiplas etapas, como extração de API, transformação de dados e carga em um data warehouse.
+25. **Processamento de Big Data:** Construa um job de processamento de dados utilizando Apache Spark para processar um grande volume de dados.
+26. **Banco de Dados em Nuvem:** Implemente um data warehouse simples em AWS Redshift e realize queries para extrair insights.
+27. **Modelagem Dimensional:** Modele um esquema estrela ou floco de neve para um sistema de vendas, identificando as tabelas fato e dimensão.
+28. **Data Pipeline em Cloud:** Construa um pipeline de ingestão de dados utilizando serviços de AWS como S3, Glue, e Lambda.
+29. **Análise de Performance:** Compare a performance de um sistema de banco de dados SQL em consulta de dados indexados versus não indexados.
+30. **Carga Incremental:** Desenvolva um pipeline que execute cargas incrementais de dados em vez de cargas totais, otimizando o processo ETL.
+31. **Data Governance:** Escreva um documento explicando as melhores práticas para governança de dados em um ambiente corporativo.
+32. **Data Cataloging:** Implemente um catálogo de dados utilizando ferramentas como AWS Glue ou Apache Atlas.
+33. **Data Versioning:** Configure o versionamento de dados utilizando DVC (Data Version Control) para monitorar mudanças em datasets.
+34. **CI/CD para Data Pipelines:** Crie um pipeline de CI/CD para automação de deploys de pipelines de dados utilizando ferramentas como Jenkins ou GitHub Actions.
+35. **Zonas de Dados:** Implemente diferentes zonas de dados (Raw, Processed, e Curated) em um Data Lake.
+36. **Data Quality:** Implemente checagens de qualidade de dados no seu pipeline para verificar consistência e integridade dos dados.
+37. **DataOps:** Automatize o monitoramento e a gestão de pipelines de dados utilizando uma abordagem DataOps.
+38. **SQL Indexing:** Crie e compare a eficiência de diferentes índices em uma tabela de um banco de dados SQL.
+39. **Particionamento de Dados:** Implementar o particionamento de dados em uma tabela grande para melhorar a performance das consultas.
+40. **Auditoria de Dados:** Desenvolva um sistema para auditoria de mudanças em dados de um banco de dados, incluindo logs de todas as alterações.
+
+### Desafios de Machine Learning e Inteligência Artificial
+41. **Preparação de Dados para ML:** Desenvolva um pipeline de preparação de dados que normalize, categoriza e trate dados faltantes antes de alimentar um modelo de machine learning.
+42. **Regressão Linear:** Construa um modelo de regressão linear simples para prever preços de imóveis com base em características como tamanho, localização e ano de construção.
+43. **Classificação de Texto:** Implemente um classificador de sentimentos utilizando Naive Bayes e um dataset de avaliações de produtos.
+44. **Clusterização com K-means:** Aplique o algoritmo K-means para segmentar clientes em grupos com base em seu comportamento de compra.
+45. **Feature Engineering:** Crie novas features a partir de um dataset existente e avalie seu impacto na performance de um modelo de machine learning.
+46. **Validação Cruzada:** Implemente validação cruzada para otimizar a escolha de hiperparâmetros de um modelo de machine learning.
+47. **Árvores de Decisão:** Desenvolva um modelo de árvore de decisão para classificar espécies de flores com base no dataset Iris.
+48. **Random Forest:** Implemente um modelo Random Forest e compare seu desempenho com uma árvore de decisão simples.
+49. **Redes Neurais Simples:** Construa uma rede neural simples utilizando TensorFlow ou PyTorch para classificar imagens do dataset MNIST.
+50. **XGBoost:** Aplique o algoritmo XGBoost para resolver um problema de classificação binária em um dataset real.
+51. **Análise de Componentes Principais (PCA):** Utilize PCA para reduzir a dimensionalidade de um dataset enquanto retém a maior parte da variância.
+52. **Modelos de Ensemble:** Combine múltiplos modelos preditivos utilizando técnicas de ensemble como bagging e boosting para melhorar a precisão.
+53. **Model Tuning:** Utilize grid search para otimizar os hiperparâmetros de um modelo de machine learning.
+54. **Detecção de Anomalias:** Desenvolva um modelo para detectar anomalias em transações financeiras utilizando isolation forest.
+55. **Recomendação de Produtos:** Construa um sistema de recomendação de produtos utilizando filtros colaborativos.
+56. **Processamento de Linguagem Natural (NLP):** Implemente uma análise de tópicos em textos utilizando LDA (Latent Dirichlet Allocation).
+57. **Deep Learning para Visão Computacional:** Construa uma CNN (Convolutional Neural Network) para classificar imagens do dataset CIFAR-10.
+58. **RNN para Análise de Séries Temporais:** Implemente uma RNN (Recurrent Neural Network) para prever o fechamento de ações com base em dados históricos.
+59. **Transfer Learning:** Aplique transfer learning para classificar imagens em um dataset personalizado utilizando um modelo pré-treinado como ResNet.
+60. **Interpretabilidade de Modelos:** Utilize técnicas como LIME ou SHAP para explicar as previsões de um modelo de machine learning.
+
+### Desafios Avançados e Projeto Completo
+61. **Desenvolvimento de um Data Lake Completo:** Construa um data lake desde a ingestão de dados brutos até a criação de relatórios, utilizando uma arquitetura de nuvem.
+62
+
+Aqui estão os desafios finais para auxiliar em seus estudos em Engenharia de Dados, incluindo tópicos avançados e projetos completos:
+
+### Desafios Avançados e Projeto Completo (continuação)
+61. **Desenvolvimento de um Data Lake Completo:** Construa um data lake desde a ingestão de dados brutos até a criação de relatórios, utilizando uma arquitetura de nuvem. Implemente as zonas Raw, Processed, e Curated.
+62. **Implementação de Data Vault:** Modele e implemente um Data Vault em um sistema de Data Warehouse, criando Hubs, Links, e Satélites.
+63. **Desenvolvimento de um Pipeline de ML Completo:** Desenvolva um pipeline completo que inclua coleta de dados, limpeza, treinamento de modelo, validação e deployment em produção utilizando ferramentas como MLflow e Kubernetes.
+64. **Armazenamento de Dados em Tempo Real:** Configure um sistema de processamento de dados em tempo real usando Apache Kafka e Spark Streaming.
+65. **Automação de Testes de Dados:** Crie um sistema para automatizar a verificação de qualidade de dados em um pipeline ETL usando ferramentas como Great Expectations.
+66. **Desenvolvimento de um Sistema de Recomendação Completo:** Construa um sistema de recomendação de ponta a ponta, desde a ingestão de dados até a entrega do modelo em produção.
+67. **Implementação de Kubernetes para Data Engineering:** Implante um pipeline de dados em um cluster Kubernetes, utilizando ferramentas como Helm para gerenciar o ciclo de vida do aplicativo.
+68. **Desenvolvimento de um Projeto de Big Data:** Utilize ferramentas como Apache Hadoop e HDFS para construir um sistema de processamento de dados massivos.
+69. **Integração de Ferramentas de Observabilidade:** Integre ferramentas de monitoramento como Grafana e Prometheus em seus pipelines de dados para rastrear performance e erros.
+70. **Projeto de IoT para Coleta de Dados:** Desenvolva um projeto IoT que colete dados de sensores em tempo real e envie para um data lake para processamento e análise.
+71. **Automação de Deploy de Modelos com CI/CD:** Configure um pipeline CI/CD para deploy automatizado de modelos de machine learning utilizando Jenkins e Docker.
+72. **Migração de Dados para a Nuvem:** Execute um projeto de migração de um banco de dados on-premise para uma plataforma de nuvem como AWS RDS.
+73. **Criação de um Sistema de Log e Auditoria:** Desenvolva um sistema para captura e análise de logs de auditoria em um ambiente de data warehouse.
+74. **Data Governance em Grande Escala:** Implemente políticas de governança de dados para um grande volume de dados, incluindo catalogação, versionamento e controle de acesso.
+75. **Projeto Completo de Data Pipeline com Airflow:** Construa um pipeline de dados complexo com múltiplos DAGs no Apache Airflow, envolvendo etapas como ingestão, transformação e carga de dados.
+76. **Modelo de Previsão de Séries Temporais:** Construa e implemente um modelo de previsão para séries temporais complexas utilizando LSTM ou Prophet.
+77. **Criação de um Data Mart:** Modele e implemente um Data Mart focado em um caso de uso específico, como vendas ou marketing, utilizando o conceito de esquemas estrela e floco de neve.
+78. **Desenvolvimento de APIs para Consumo de Dados:** Crie uma API RESTful para fornecer acesso a dados processados de um pipeline ETL.
+79. **Aplicação de Algoritmos de ML em Big Data:** Utilize Apache Spark MLlib para aplicar algoritmos de machine learning em um grande volume de dados distribuídos.
+80. **Construção de um Sistema de Monitoramento de Pipelines:** Desenvolva um sistema que monitore a saúde e performance de pipelines de dados, gerando alertas automáticos para falhas.
+81. **Implementação de Segurança em Pipelines de Dados:** Implemente medidas de segurança em pipelines de dados, incluindo criptografia e autenticação multi-fator (MFA).
+82. **Desenvolvimento de Dashboards Interativos:** Construa dashboards interativos utilizando ferramentas como Tableau ou Power BI, conectados diretamente ao data warehouse.
+83. **Projeto de Data Warehouse Modular:** Modele um data warehouse modular com diferentes camadas de dados para suportar múltiplas aplicações analíticas.
+84. **Análise e Visualização de Dados Geoespaciais:** Desenvolva um projeto que inclua a ingestão e análise de dados geoespaciais, visualizando-os em mapas interativos.
+85. **Implementação de Data Mesh:** Estude e implemente uma arquitetura de Data Mesh, distribuindo a responsabilidade de dados entre diferentes domínios da organização.
+86. **Pipeline de Dados para Processamento de Imagens:** Construa um pipeline de dados para o processamento e análise de imagens utilizando bibliotecas como OpenCV e TensorFlow.
+87. **Implementação de um Sistema de Cache:** Desenvolva e integre um sistema de cache em um pipeline de dados para otimizar o acesso a dados frequentemente consultados.
+88. **Modelagem de Previsão de Demanda:** Crie um modelo preditivo para previsão de demanda utilizando técnicas avançadas de regressão ou machine learning.
+89. **Análise de Desempenho de Banco de Dados:** Conduza um estudo de desempenho em um banco de dados SQL e optimize as queries e índices para melhorar o tempo de resposta.
+90. **Desenvolvimento de Um Data Mart para E-commerce:** Modele e implemente um Data Mart específico para análises de um e-commerce, focando em comportamento de clientes e vendas.
+91. **Projeto de Data Engineering com Serverless:** Construa um pipeline de dados utilizando serviços serverless como AWS Lambda e Glue, minimizando a necessidade de gerenciar servidores.
+92. **Criação de um Repositório de Dados Compartilhados:** Desenvolva um repositório central de dados que possa ser acessado e utilizado por diferentes equipes dentro da organização.
+93. **Implementação de Políticas de Retenção de Dados:** Construa um sistema que gerencie a retenção e exclusão de dados conforme as políticas da organização.
+94. **Criação de um Sistema de Data Lineage:** Implemente um sistema de rastreabilidade de dados para acompanhar a origem e transformação dos dados ao longo de todo o pipeline.
+95. **Integração de Ferramentas de BI com Big Data:** Conecte ferramentas de BI como Power BI ou Tableau a um cluster de big data, otimizando consultas e relatórios.
+96. **Projeto de Arquitetura de Dados Distribuída:** Desenvolva uma arquitetura de dados distribuída que suporte alta disponibilidade e escalabilidade, utilizando ferramentas como Cassandra ou CockroachDB.
+97. **Implementação de Logística Reversa em Data Pipelines:** Crie um sistema que permita reprocessar dados históricos em pipelines de ETL para correção de erros.
+98. **Monitoramento de Performance com Logs Centralizados:** Desenvolva um sistema de monitoramento de performance com logs centralizados, utilizando ferramentas como ELK Stack (Elasticsearch, Logstash, Kibana).
+99. **Criação de um Data Mart para Análise de Marketing:** Modele e implemente um Data Mart focado em dados de marketing, integrando dados de campanhas, CRM e análises de clientes.
+100. **Deploy de Modelos de Machine Learning com MLOps:** Utilize práticas de MLOps para deploy e monitoramento contínuo de modelos de machine learning em um ambiente de produção.
+
+Esses desafios cobrem uma ampla gama de habilidades e competências necessárias para o desenvolvimento completo em Engenharia de Dados. Eles são projetados para serem progressivos, desde fundamentos até tópicos avançados, permitindo um aprendizado contínuo e aprofundado na área.
